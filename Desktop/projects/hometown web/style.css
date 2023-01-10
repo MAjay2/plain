@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  text-align: center;
+  width: autos;
+  color: whitesmoke;
+  background-image: linear-gradient(#1d3557, black);
+}
+
+.national,
+.inde,
+.boat {
+  width: 200px;
+  height: 200px;
+}
+.head {
+  margin: 0;
+  background-image: url(image/Accra.jpg);
+  background-size: cover;
+  padding: 80px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  background-color: lightseagreen;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+h2 {
+  background-color: #1d3557;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.footer {
+  width: 500px;
+  height: 250px;
+
+  text-align: center;
+  display: flex;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: lightseagreen;
+  color: white;
+}
+
+#mickey {
+  border-radius: 0%;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.mickey {
+  width: 50%;
+}
